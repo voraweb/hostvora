@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:root {
+	--vora-gray: #4D4D4D;
+	--vora-gray-medium-b: #CCCCCC;
+	--vora-gray-medium: #E6E6E6;
+	--vora-gray-light: #F8F8F8;
+	--vora-green: #BFD52A;
+	
+	--vora-gutter: 20px;
+	--vora-box-icon-width: 100px;
+	--vora-module-6x: 60px;
+} 
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	color: var(--vora-gray);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	position: fixed;
+	z-index: 100;
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+h3 {
+	letter-spacing: 1px;
+}
+
+h4 {
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
+
+p {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+header.active {
+    background-color: rgba(30,30,30,0.95);
+}
+
+.row {
+	width: 100%;
+	float: left;
+	
+}
+
+.row-y-separator {
+	padding: 50px 0px;
+}
+
+.sec-100 {
+	width: 100%;
+}
+
+.sec-80 {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.sec-1-2 {
+	width: 50%;
+	float: left;
+	display: flex;
+}
+
+.flex-column-height {
+	display: flex;
+	align-items: stretch;
+}
+
+.flex-center-y {
+	display: flex;
+  	align-items: center;
+}
+
+.sec-1-3 {
+	width: 33.3%;
+	float: left;
+}
+
+.sec-1-5 {
+	width: calc(20% - 1px);
+	float: left;
+	border-right: 1px solid var(--vora-gray);
+}
+
+.sec-1-5:last-child {
+	border-right: 0px;
+}
+
+.box-1-2 {
+	width: calc(50% - var(--vora-gutter));
+}
+
+.box-1-3 {
+	width: calc(33.33% - var(--vora-gutter));
+}
+
+.box-secondary {
+	margin-left: calc(var(--vora-gutter));
+}
+
+.box {
+	float: left;
+	background-color: var(--vora-gray-medium);
+	margin-top: var(--vora-gutter);
+	padding-bottom: var(--vora-module-6x);
+}
+
+.box-bookmark {
+	width: calc(100% - 40px);
+	height: auto;
+	text-align: right;
+	float:left;
+	padding-right: 40px;
+}
+
+.box-icon {
+	width: var(--vora-box-icon-width);
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+
+.box-text {
+	width: calc(80% - var(--vora-box-icon-width));
+	float: left;
+}
+
+.links {
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.hg-main {
+	height: 80vh;
+	position: relative;
+}
+
+.list-tabular {
+	list-style-type: none;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.intro-text {
+	float: left;
+	position: absolute;
+	bottom: 0px;
+	width: 40%;
+}
+
+.filete {
+	float: left;
+	width: 100px;
+	border: 1px solid var(--vora-gray);
+	margin: 30px 0px 20px;
+}
+
+.button {
+	border-radius: 25px;
+	width: 200px;
+	height: 50px;
+	margin: 0px auto;
+	background-color: var(--vora-green);	
+	display:table-cell;
+    vertical-align:middle;
+}
+
+.button-icon {
+	width: 20%;
+	text-align: right;
+	float: left;
+}
+
+
+
+.button-text {
+	width: calc(80% - 10px);
+	float: left;
+	padding-left: 10px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+
+.button-w {
+	border-radius: 20px;
+	width: 200px;
+	height: 40px;
+	border: 1px solid white;
+	display:table-cell;
+    vertical-align:middle;
+}
+
+.button-w-text {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.adaptable-bg {
+	width: 100%;
+	height: 100%;
+	 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-text {
+	color: white;
+}
+
+.main-bg {
+	background-image: url("img/vora-main.jpg");
+}
+
+.contruccion-bg {
+	background-image: url("img/vora-materiales-construccion.jpg");
+}
+
+
+.quimica-bg {
+	background-image: url("img/vora-materiales-quimicos.jpg")
+}
+
+.gray-bg {
+	background-color: var(--vora-gray-medium-b);
+}
+
+.gray-medium-bg {
+	background-color: var(--vora-gray-medium);
+}
+
+.gray-light-bg {
+	background-color: var(--vora-gray-light);
+}
+
+.spacer-cont-top-small {
+	margin-top: 20px;
+}
+
+.spacer-cont-top {
+	margin-top: 40px;
+}
+
+.spacer-cont-bottom {
+	margin-bottom: 40px;
+}
+
+.intro-title-1 {
+	color: var(--vora-green);
+	font-size: 100px;
+}
+
+.intro-title-2 {
+	color: var(--vora-green);
+	margin-top: -10px;
+	font-size: 35px;
+}
+
+footer {
+	float: left;
+	background-color: black;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.footer-logo {
+	width: 80px;
+	float: left;
+	height: auto;
+}
+
+.footer-text {
+	float: left;
+	margin: -5px 0px 0px 20px;
+}
+
+.header-logo {
+	width: 20%;
+	float: left;
+	height: auto;
+}
+
+.header-text {
+	width: 80%;
+	float: left;
+	margin-right: 20px;
+	text-align: right;
+}
+
+
+#contacto {
+	background-color: var(--vora-green);
+}

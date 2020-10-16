@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vora - Química y Construcción</title>
+	
+	<link rel="icon" href="icon.png">
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+	
+<link href="global.css" rel="stylesheet" type="text/css">
+	
+	
+	
+</head>
+
+<body>
+	
+	<script>
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 200) {
+        $("header").addClass("active");
+    } else {
+       $("header").removeClass("active");
+    }
+});
+</script>
+	
+<!--	Header -->
+	
+	<header>
+		<div class="sec-80 flex-center-y">
+		
+		<div class="header-logo">
+			<img width="140px" alt="Logo Vora" src="img/logo-vora.png">
+		</div>
+	<div class="header-text">
+		
+		<a href="#contacto">
+			<div class="button-w">
+				<div class="button-w-text">CONTÁCTENOS</div>
+				
+				</div>
+			</a>
+		</div>
+		
+		</div>
+		
+		
+	</header>
+	
+<!--	Main -->
+	
+	<div class="row main-bg adaptable-bg">
+		<div class="sec-80 hg-main">
+		
+			
+			<div class="intro-text spacer-cont-bottom">
+				
+				<p class="intro-title-1">SOMOS</p>
+				<p class="intro-title-2">QUÍMICA Y CONSTRUCCIÓN</p>
+				
+				<h5 class="white-text spacer-cont-top-small spacer-cont-bottom">VORA es una firma con experiencia en la
+comercialización y representación de empresas reconocidas en varios sectores de la industria química y de construcción</h5>
+				
+			
+			
+			
+			
+		
+			</div>
+			
+			
+		</div>
+	</div>
+	
+<!--	Links -->
+	
+	<div class="row">
+		<div class="sec-100">
+			<ul class="list-tabular">
+				<a href="#construccion"><li class="sec-1-3 links gray-light-bg">CONSTRUCCIÓN &gt;</li></a>
+				<a href="#quimicos"><li class="sec-1-3 links gray-medium-bg a">QUÍMICOS &gt;</li></a>
+				<a href="#marcas"><li class="sec-1-3 links gray-bg">NUESTRAS MARCAS &gt;</li></a>
+			</ul>
+		</div>
+	</div>
+	
+<!--	Clients -->
+	
+	<div class="row row-y-separator txt-center" id="marcas">
+		<div class="sec-80">
+			<h1>LO MEJOR PARA LOS MEJORES</h1>
+			<h2>REPRESENTAMOS Y COMERCIALIZAMOS</h2>
+			<ul class="list-tabular spacer-cont-top">
+				<li class="sec-1-5"><img width="100%" alt="Logo Mexichem" src="img/logo-mexichem.png"></li>
+				<li class="sec-1-5"><img width="100%" alt="Logo Tubos Celta" src="img/logo-tubos-celta.png"></li>
+				<li class="sec-1-5"><img width="100%" alt="Logo Pavco" src="img/logo-pavco.png"></li>
+				<li class="sec-1-5"><img width="100%" alt="Logo Pinturas Sapolin" src="img/logo-pinturas-sapolin.png"></li>
+				<li class="sec-1-5"><img width="100%" alt="Logo Marubeni" src="img/logo-marubeni.png"></li>
+			</ul>
+		</div>
+	</div>
+	
+<!--	Portfolio Construccion-->
+	
+	<div class="row row-y-separator contruccion-bg adaptable-bg" id="construccion">
+		<div class="sec-80">
+		 
+			<h1>CONSTRUIMOS</h1>
+			
+			<h2>NUESTRO PORTAFOLIO DE CONSTRUCCIÓN</h2>
+			
+			<span class="filete"></span>
+			
+			<div class="row flex-column-height">
+				
+				<div class="box box-1-3">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon"><img width="100%" alt="Icono Tuberias de PVC" src="img/tuberias-pvc.png"></div>
+						<div class="box-text">
+							<h3>TUBERIAS DE PVC</h3>
+							<p>Línea Infraestructura: para Redes de Urbanismo (Acueducto, Alcantarillado, Canalizaciones Eléctricas y Telefónicas, Drenaje, Polietileno HDPE Acuaflex.</p>
+						</div>					
+			</div>
+				
+				<div class="box box-1-3 box-secondary">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon"><img width="100%" alt="Icono Geosistemas" src="img/geosistemnas.png"></div>
+						<div class="box-text">
+							<h3>GEOSISTEMAS</h3>
+							<p>Suministro e Instalación de Geotextil Tejido y No Tejido, Geomembrana HDPE, Geodrén Vial y Planar, Agromantos.<br><br></p>
+						</div>
+			</div>
+				
+				<div class="box box-1-3 box-secondary">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon">
+							<img width="100%" alt="Icono Valvuleria HD" src="img/valvuleria-hd.png">
+					</div>
+						<div class="box-text">
+							<h3>VALVULERIA HD</h3>
+							<p>Válvulas y Accesorios HD (Hidrantes, Válvulas, Ventosas, Tees, Codos, Uniones Mecánicas, Uniones Drésser, Micro y Macromedidores).<br></p>
+						</div>
+			</div>
+			</div>
+			
+			<div class="row flex-column-height">
+				
+				<div class="box box-1-3">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon">
+							<img width="100%" alt="Icono Metales" src="img/metales.png">
+					</div>
+						<div class="box-text">
+							<h3>METALES</h3>
+							<p>Tubería y Accesorios Acero Hg –Cobre, Válvulasde Cortina y de Bola, Cheques.TUBERIA PARA PERFORACIONES (PILOTAJE) EN ACERO 20” –30”.</p>
+						</div>					
+			</div>
+				
+				<div class="box box-1-3 box-secondary">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon">
+							<img width="100%" alt="Icono Mallas y Acero" src="img/mallas-acero.png">
+					</div>
+						<div class="box-text">
+							<h3>MALLAS Y ACERO</h3>
+							<p>Gaviones triple torsión, elaborados en máquina figuradora: 2x1x1 Cal 11 TIPO INVIAS, 2x1x1 Cal 12 y 13 abertura 7,5x7,5.Alambre Galvanizado Cal 12 y 13.</p>
+						</div>
+			</div>
+				
+				<div class="box box-1-3 box-secondary">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon">
+							<img width="100%" alt="Icono Pinturas" src="img/pinturas.png">
+					</div>
+						<div class="box-text">
+							<h3>PINTURAS</h3>
+							<p>Recubrimientos Arquitectónicos e Industriales, Vinilacrilicas Tipo I, II, III, Acrílicas para fachadas, Esmaltes, Epóxicas, Poliuretanos, Demarcación de Vías y demás.</p>
+						</div>
+			</div>
+			</div>
+		
+		</div>
+	</div>
+	
+<!--	CTA -->
+	
+	<div class="row row-y-separator txt-center">
+		<div class="sec-80">
+		
+			<h1>TRABAJEMOS JUNTOS</h1>
+			<h2 class="spacer-cont-bottom">QUEREMOS DARLE EL MEJOR SERVICIO</h2>
+			<a href="#contacto">
+			<div class="button">
+				
+				<div class="button-icon"><img width="30%" alt="Icono telefono" src="img/phone-contact.png"></div>
+				<div class="button-text">CONTÁCTENOS</div>
+				
+				</div>
+				</a>
+			
+		</div>
+	</div>
+	
+<!--	Portfolio Quimica -->
+	
+	<div class="row row-y-separator quimica-bg adaptable-bg" id="quimicos">
+		<div class="sec-80">
+		
+		 <h1>QUÍMICOS</h1>
+			<h2>NUESTRO PORTAFOLIO DE PRODUCTOS QUÍMICOS</h2>
+			
+			<span class="filete"></span>
+			
+			<div class="row flex-column-height">
+				
+				<div class="box box-1-2">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon">
+							<img width="80%" alt="Icono Tipos de Industria" src="img/tipos-de-industria.png">
+					</div>
+						<div class="box-text">
+							<h3>TIPOS DE INDUSTRIA</h3>
+							<p>Quimica De Produccion<br>
+Alimentos<br>
+Tratamiento De Aguas<br>
+Petroleos<br>
+Espumados<br>
+Cueros Y Textiles</p>
+						</div>					
+			</div>
+				
+				<div class="box box-1-2 box-secondary">
+					<div class="box-bookmark"><img alt="Bookmark icon" src="img/bookmark.png"></div>
+						<div class="box-icon">
+							<img width="80%" alt="Icono Lineas de Producto" src="img/lineas de producto.png">
+					</div>
+						<div class="box-text">
+							<h3>LINEAS DE PRODUCTOS</h3>
+							<p>Monomeros<br>
+Alcoholes Polivinilicos<br>
+Solventes<br>
+Preservantes<br>
+Biocidas<br>
+Agentes Quelantes, Cuagulantes Y Floculantes<br>
+Espesantes</p>
+						</div>
+			</div>
+			
+			</div>
+			
+		</div>
+	</div>
+	
+<!--	Contact -->
+	
+	<div class="row row-y-separator" id="contacto">
+		<div class="sec-80">
+		
+			
+			
+			<div class="footer-logo">
+			<img width="60px" alt="Contact icon" src="img/phone-contact.png">
+		</div>
+	<div class="footer-text">
+			<h4>(+57) 305 3105588</h4> 
+			<h4>(+57) 315 3340220</h4>
+			<h2>info@vora.com.co</h2>
+		<p>
+Cra. 66 No.49B 20 Of:213 Bloque A<br>
+Centro Empresarial Los Sauces
+			<br>Medellín, Colombia</p>
+		</div>
+			
+		
+			
+		</div>
+	</div>
+	
+<!--	Footer -->
+	
+	<footer>
+		
+		<div class="sec-80">
+			<div class="footer-logo">
+			<img width="70px" alt="Logo Vora" src="img/logo-vora.png">
+		</div>
+	<div class="footer-text">
+			<p class="white-text">© Vora - All Rights Reserved</p>
+		</div>
+		
+		</div>
+		
+	</footer>
+	
+</body>
+</html>
